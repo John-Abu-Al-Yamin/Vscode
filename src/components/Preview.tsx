@@ -13,7 +13,7 @@ const Preview = ({}: IProps) => {
     <>
     
       <OpenedFilesBar />
-      <FileSyntaxHighlighter content={fileContent} />
+      <FileSyntaxHighlighter content={fileContent || ""} />
     </>
   );
 };
